@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TCD Thai Cannabis Bar - Menu</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #031f13;
+  color: #fff3cf;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(3,31,19,0.97);
+  border-bottom: 1px solid #d8ad55;
+  padding: 14px 10px;
+  text-align: center;
+}
+
+.logo {
+  color: #e9bd63;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.brand {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-top: 3px;
+}
+
+nav {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding-top: 12px;
+  justify-content: flex-start;
+}
+
+nav a {
+  flex: 0 0 auto;
+  color: #fff3cf;
+  text-decoration: none;
+  border: 1px solid #a9823c;
+  border-radius: 20px;
+  padding: 7px 12px;
+  font-size: 12px;
+}
+
+main {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 15px 10px 40px;
+}
+
+.intro {
+  text-align: center;
+  padding: 15px 5px 5px;
+}
+
+.intro h1 {
+  color: #e9bd63;
+  font-size: 34px;
+  margin: 5px;
+}
+
+.intro p {
+  margin: 5px;
+  font-size: 13px;
+}
+
+section {
+  margin: 25px 0;
+  scroll-margin-top: 120px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e9bd63;
+  font-size: 23px;
+  margin: 0 5px 12px;
+}
+
+.section-title:after {
+  content: "";
+  height: 1px;
+  background: #a9823c;
+  flex: 1;
+}
+
+.menu-image {
+  width: 100%;
+  display: block;
+  border: 1px solid #c99c4b;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.4);
+}
+
+footer {
+  border-top: 1px solid #8b6a30;
+  text-align: center;
+  padding: 25px 10px 40px;
+  color: #e9bd63;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">TCD</div>
+  <div class="brand">THAI CANNABIS BAR</div>
+
+  <nav>
+    <a href="#cocktails">Cocktails</a>
+    <a href="#appetizers">Appetizers</a>
+    <a href="#thai">Thai Food</a>
+    <a href="#pizza">Pizza</a>
+    <a href="#rice">Rice</a>
+    <a href="#sandwiches">Sandwiches</a>
+    <a href="#padthai">Pad Thai</a>
+    <a href="#signature">Signature</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="intro">
+    <h1>MENU</h1>
+    <p>Thai Classic • Food • Cocktails</p>
+  </div>
+
+  <section id="cocktails">
+    <h2 class="section-title">Cocktail Menu</h2>
+    <img class="menu-image"
+         src="images/01-cocktail.jpeg"
+         alt="TCD Cocktail Menu">
+  </section>
+
+  <section id="appetizers">
+    <h2 class="section-title">Appetizers</h2>
+    <img class="menu-image"
+         src="images/02-appetizers.jpeg"
+         alt="TCD Appetizers Menu">
+  </section>
+
+  <section id="thai">
+    <h2 class="section-title">Thai Curry Stir-fry</h2>
+    <img class="menu-image"
+         src="images/03-thai-curry-stir-fry.jpeg"
+         alt="TCD Thai Curry Stir-fry Menu">
+  </section>
+
+  <section id="pizza">
+    <h2 class="section-title">Classic Pizzas</h2>
+    <img class="menu-image"
+         src="images/04-pizza.jpeg"
+         alt="TCD Classic Pizza Menu">
+  </section>
+
+  <section id="rice">
+    <h2 class="section-title">Rice Plates</h2>
+    <img class="menu-image"
+         src="images/05-rice-plates.jpeg"
+         alt="TCD Rice Plates Menu">
+  </section>
+
+  <section id="sandwiches">
+    <h2 class="section-title">Sandwiches</h2>
+    <img class="menu-image"
+         src="images/06-sandwiches.jpeg"
+         alt="TCD Sandwich Menu">
+  </section>
+
+  <section id="padthai">
+    <h2 class="section-title">Pad Thai</h2>
+    <img class="menu-image"
+         src="images/07-pad-thai.jpeg"
+         alt="TCD Pad Thai Menu">
+  </section>
+
+  <section id="signature">
+    <h2 class="section-title">Signature Dishes</h2>
+    <img class="menu-image"
+         src="images/08-signature-dishes.jpeg"
+         alt="TCD Signature Dishes Menu">
+  </section>
+
+</main>
+
+<footer>
+  TCD • THAI CANNABIS BAR
+  <br><br>
+  THANK YOU FOR CELEBRATING WITH US
+</footer>
+
+</body>
+</html>
